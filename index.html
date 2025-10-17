@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Мой виш-лист Python проектов</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #89f7fe, #66a6ff);
+      color: #222;
+      margin: 0;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      color: #1e3a8a;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      width: 90%;
+      max-width: 600px;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+      overflow: hidden;
+    }
+
+    li {
+      padding: 20px;
+      font-size: 1.1rem;
+      border-bottom: 1px solid #e2e8f0;
+      display: flex;
+      align-items: center;
+      transition: background 0.3s ease;
+    }
+
+    li:last-child {
+      border-bottom: none;
+    }
+
+    li:hover {
+      background: #eff6ff;
+    }
+
+    li::before {
+      content: "💡";
+      margin-right: 12px;
+      font-size: 1.4rem;
+    }
+
+    footer {
+      margin-top: 30px;
+      color: #334155;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Мой виш-лист проектов на Python 🐍</h1>
+  <ul>
+    <li>🌱 Умный планировщик привычек — помогает отслеживать цели и напоминания.</li>
+    <li>🧠 Генератор кроссвордов и викторин — создаёт задания на выбранные темы.</li>
+    <li>�� Музыкальный визуализатор — строит графику и спектры для любимых треков.</li>
+  </ul>
+
+  <footer>Сделано с 💙 и Python</footer>
+</body>
+</html>
+
